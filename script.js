@@ -1,9 +1,37 @@
 function playGame (playerSelection, computerSelection){
-    let startGame = prompt('What do you choose?', '')
-    const rock = ['Rock', 'ROCK', 'rOCK','rock'];
-    const paper = ['Paper', 'PAPER', 'pAPER', 'paper'];
-    const scissors = ['Scissors', 'SCISSORS', 'sCISSORS', 'scissors']
+    humanPlayer()
+    computerPlay()
     
+}
+playGame()
+
+
+function humanPlayer(){
+    let startGame = prompt('What do you choose?', '')
+    let playerPIck = ['rock', 'paper', 'scissors'];
+
+    if(startGame === playerPIck[0]){
+        let a = playerPIck[0]
+        console.log(a)
+    } else if(startGame === playerPIck[1]){
+        let b = playerPIck[1]
+        console.log(b)
+    } else if (startGame === playerPIck[2]){
+        let c = playerPIck[2]
+        console.log(c)
+    } else{
+        console.log('thats not an item on the list')
+    }
+
+    // let rock = 'rock'
+    // const rock = ['Rock', 'ROCK', 'rOCK','rock'];
+    // let paper = 'paper'
+    // const paper = ['Paper', 'PAPER', 'pAPER', 'paper'];
+    // let scissors = 'scissors'
+    // const scissors = ['Scissors', 'SCISSORS', 'sCISSORS', 'scissors']
+    
+    
+<<<<<<< HEAD
     if (startGame = rock){
         console.log(rock[])
         // return rock;
@@ -36,3 +64,29 @@ playGame()
 // // console.log(playGame(playerSelection, computerSelection))
 
 
+=======
+    // if (startGame == rock){
+    //     // return rock;
+    //     console.log(rockResult)
+    // }else if(startGame == paper) {
+    //     console.log(paper)
+    // }else if (startGame == scissors){
+    //     console.log(scissors)
+    // }else{
+    //     // console.log('choose wisely')
+    // }
+
+}
+
+function computerPlay(){
+    // let a = 'Rock';
+    // let b = 'Paper';
+    // let c = 'Scissors';
+
+    let playArray = ['Rock', 'Paper', 'Scissors'];
+    let randomItem = playArray[Math.floor(Math.random()*playArray.length)]
+    // let randomItem = [Math.floor(Math.random()*playArray.length)]
+    console.log(randomItem)
+}
+// computerPlay()
+>>>>>>> d3be9d31767480a249fe5b7941bcba6504736985
