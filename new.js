@@ -2,8 +2,10 @@ let player = 0;
 let computer = 0;
 
 function playRound(playerSelection, computerSelection){
-    
-   
+    let playerSelection = player;
+    let computerSelection = computer;
+
+    return playerSelection, computerSelection
 }
 
 // playRound()
@@ -31,11 +33,13 @@ function game(){
 
         alert('Computer won. Paper beats rock')
         console.log('Computer won. Paper beats rock')
+        console.log(computer++)
         
     } else if(playQuestion === 'rock' && computerPick === 'scissors'){
 
         alert(playerName + ' wins. Rock beats scissors')
         console.log(playerName + ' wins. Rock beats scissors')
+        console.log(player++)
         
     }
 
@@ -48,27 +52,27 @@ function game(){
 
         alert(playerName + ' wins. Paper beats rock')
         console.log(playerName + ' wins. Paper beats rock')
+        console.log(player++)
         
     } else if(playQuestion === 'paper' && computerPick === 'scissors'){
 
         alert('Computer won. Scissors beats paper')
         console.log('Computer won. Scissors beats paper')
-        console.log(computerPick)
-        console.log(playQuestion)
+        console.log(computer++)
     }
     
     if(playQuestion === 'scissors' && computerPick === 'paper'){
 
         alert(playerName + ' wins. Scissors beats paper')
         console.log(playerName + ' wins. Scissors beats paper')
-        console.log(computerPick)
-        console.log(playQuestion)
+        console.log(player++)
+        
     } else if(playQuestion === 'scissors' && computerPick === 'rock'){
 
         alert('Computer won. Rock beats scissors')
         console.log('Computer won. Rock beats scissors')
-        console.log(computerPick)
-        console.log(playQuestion)
+        console.log(computer++)
+
     } else if(playQuestion === 'scissors' && computerPick === 'scissors'){
 
         alert('Its a tie. You both chose scissors')

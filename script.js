@@ -31,7 +31,6 @@ function humanPlayer(){
     // const scissors = ['Scissors', 'SCISSORS', 'sCISSORS', 'scissors']
     
     
-<<<<<<< HEAD
     if (startGame = rock){
         console.log(rock[])
         // return rock;
@@ -64,29 +63,3 @@ playGame()
 // // console.log(playGame(playerSelection, computerSelection))
 
 
-=======
-    // if (startGame == rock){
-    //     // return rock;
-    //     console.log(rockResult)
-    // }else if(startGame == paper) {
-    //     console.log(paper)
-    // }else if (startGame == scissors){
-    //     console.log(scissors)
-    // }else{
-    //     // console.log('choose wisely')
-    // }
-
-}
-
-function computerPlay(){
-    // let a = 'Rock';
-    // let b = 'Paper';
-    // let c = 'Scissors';
-
-    let playArray = ['Rock', 'Paper', 'Scissors'];
-    let randomItem = playArray[Math.floor(Math.random()*playArray.length)]
-    // let randomItem = [Math.floor(Math.random()*playArray.length)]
-    console.log(randomItem)
-}
-// computerPlay()
->>>>>>> d3be9d31767480a249fe5b7941bcba6504736985
