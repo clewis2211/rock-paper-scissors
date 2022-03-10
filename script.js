@@ -1,27 +1,27 @@
-function playGame (playerSelection, computerSelection){
-    humanPlayer()
-    computerPlay()
+// function playGame (playerSelection, computerSelection){
+//     humanPlayer()
+//     computerPlay()
     
-}
-playGame()
+// }
+// playGame()
 
 
-function humanPlayer(){
-    let startGame = prompt('What do you choose?', '')
-    let playerPIck = ['rock', 'paper', 'scissors'];
+// function humanPlayer(){
+//     let startGame = prompt('What do you choose?', '')
+//     let playerPIck = ['rock', 'paper', 'scissors'];
 
-    if(startGame === playerPIck[0]){
-        let a = playerPIck[0]
-        console.log(a)
-    } else if(startGame === playerPIck[1]){
-        let b = playerPIck[1]
-        console.log(b)
-    } else if (startGame === playerPIck[2]){
-        let c = playerPIck[2]
-        console.log(c)
-    } else{
-        console.log('thats not an item on the list')
-    }
+//     if(startGame === playerPIck[0]){
+//         let a = playerPIck[0]
+//         console.log(a)
+//     } else if(startGame === playerPIck[1]){
+//         let b = playerPIck[1]
+//         console.log(b)
+//     } else if (startGame === playerPIck[2]){
+//         let c = playerPIck[2]
+//         console.log(c)
+//     } else{
+//         console.log('thats not an item on the list')
+//     }
 
     // let rock = 'rock'
     // const rock = ['Rock', 'ROCK', 'rOCK','rock'];
@@ -31,19 +31,18 @@ function humanPlayer(){
     // const scissors = ['Scissors', 'SCISSORS', 'sCISSORS', 'scissors']
     
     
-    if (startGame = rock){
-        console.log(rock[])
-        // return rock;
-    }else if(startGame = paper) {
-        console.log(paper)
-    }else if (startGame = scissors){
-        console.log(scissors)
-    }else{
-        console.log('choose wisely')
-    }
-}
+//     if (startGame = rock){
+//         console.log(rock[])
+//         // return rock;
+//     }else if(startGame = paper) {
+//         console.log(paper)
+//     }else if (startGame = scissors){
+//         console.log(scissors)
+//     }else{
+//         console.log('choose wisely')
+//     }
+// }
 
-playGame()
 
 // // console.loc(playGame())
 
@@ -63,3 +62,6 @@ playGame()
 // // console.log(playGame(playerSelection, computerSelection))
 
 
+for (let step = 0; step < 5; step++){
+    console.log('walking east one' + step)
+}
